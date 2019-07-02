@@ -3,30 +3,24 @@
 	color:white;
 	width:100%;
 	position:absolute;
-
 }
-
-
 .img-max{
 	max-width:300px;
 	max-height:300px;
 	width:100%;
-	border:1px solid red;
+
 
 }
 
 .img-floater{
 	position:absolute;
 	animation:spin 4s linear infinite;
-
 }
-
 .img-floater img {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-
 #body-anim{
 	border: 0px solid red;
 	width:100vw;
