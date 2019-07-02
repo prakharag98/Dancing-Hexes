@@ -1,0 +1,42 @@
+.body{
+	background-color: #1b1b1b ;
+	color:white;
+	width:100%;
+	position:absolute;
+
+}
+
+
+.img-max{
+	max-width:300px;
+	max-height:300px;
+	width:100%;
+
+}
+
+.img-floater{
+	position:absolute;
+	animation:spin 4s linear infinite;
+
+}
+
+.img-floater img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#body-anim{
+	border: 0px solid red;
+	width:100vw;
+	height:100vh;
+	position:sticky;
+	top:0;
+	left:0;
+	opacity:0.8;
+	z-index: -10;
+	margin-top: -50%;
+}
+
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
